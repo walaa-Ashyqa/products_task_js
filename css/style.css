@@ -1,0 +1,34 @@
+#showPrice{
+    width: 200px;
+    height: 40px;
+    background-color: #8A2BE2;
+    color: #ffffff;
+    font-size: large;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.btn{
+    background-color: #6D19BB;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.total-price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar {
+    background-color: #6D19BB !important;
+    color: #ffffff !important;
+}
+.nav-item a ,.navbar-brand{
+    color: #ffffff !important;
+}
