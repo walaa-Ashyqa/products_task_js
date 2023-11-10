@@ -8,20 +8,12 @@
        button_item.onclick = function (){
             totalPrice +=  +(button_item.getAttribute("price"))
             cart.innerHTML += button_item.getAttribute("price") + " "
-
-            if (cart.innerHTML != ""){
-                btn1.style.display = "block"
-             
-            }
-   
+            console.log(totalPrice)
+            div2.innerHTML = totalPrice     
         }
     })
 
-
-    btn1.onclick = function (){
-        div2.innerHTML = totalPrice
-        console.log(totalPrice)
-    }
+   
 
 
 
